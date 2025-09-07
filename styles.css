@@ -1,10 +1,102 @@
+/* Generic Selectors */
+
 body {
-    text-align: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+  margin: 0;
 }
 
+/* Typography */
+
+h1 {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 300;
+  margin: 10px 0;
+  border-top: #c4c4c4 1px solid;
+  border-bottom: #c4c4c4 1px solid;
+  padding: 30px 0;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 900;
+  margin: 2px 0;
+}
+
+.small-text {
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+.emphasis {
+  font-weight: 900;
+  display: block;
+}
+
+/* Links */
+
+a {
+  color: #99d930;
+  font-weight: 900;
+}
+
+a:hover {
+  color: #131313;
+  font-weight: 900;
+}
+
+.btn {
+  background-color: #99d930;
+  color: #252525;
+  text-decoration: none;
+  padding: 10px;
+  margin: 15px;
+  display: inline-block;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #252525;
+  color: #fff;
+  border: #99d930 4px solid;
+}
+
+/* Div Selectors */
 .container {
-    width: 570px;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+/* Sections */
+
+header,
+section {
+  padding: 100px 0;
+  margin: 0px;
+}
+
+header {
+  background-color: #d7d7d7;
+}
+
+.about {
+  background-color: #ffeaea;
+}
+
+.articles {
+  background-color: #eaf9ff;
+}
+
+.section-dark {
+  background-color: #252525;
+  color: #fff;
 }
